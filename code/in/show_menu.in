@@ -1,0 +1,67 @@
+===============================  
+             MAIN MENU                
+===============================  
+Choose option:
+
+---------------Input---------------  
+    1 Set global variables 
+    2 Read data file\n  
+    3 Read dump step  
+    4 List management  
+    5 Read other file format  
+    6 Read additional system  
+    8 Read normal modes (from gamess output file)  
+    9 Execute t4l script  
+
+---------------Geometry---------------  
+    11 Enforce pbc  
+    12 Make supercell  
+    13 Find bonds  
+    14 Find molecules  
+    15 Displace atoms  
+    16 Get number of bonds per atom  
+
+---------------Kinetics---------------  
+    21 Calculate temperature  
+    211 Calculate Ttrans, Trot, Tvib  
+    22 Calculate linear velocity  
+    23 Calculate angular velocity  
+    231 Calculate all veclocities (t r v)   
+    24 Remove velocities  
+    25 Rescale velocities  
+    26 Randomize velocities  
+    261 Set Seperate velocities  
+    262 Randomize velocities for each type individually  
+    263 Assign velocities along normal modes  
+    264 Assign velocity along z direction  
+    265 Assign boltzmann velocities along each degree of freedom  
+    266 Set trv velocities (newest)   
+    267 Rescale trv velocities  
+    27 Remove linear momentum  
+    28 Remove angular momentum  
+    29 Apply Lowe-Andersen termostat
+
+---------------Trajectory analysis---------------  
+    31 Temperature analysis  
+    32 Velocity analysis  
+    33 Bonding analysis  
+    34 Trajectory comparison  
+    35 Trajectory comparison & TRV Temperature analysis  
+    36 Calculate vibrational spectrum  
+
+---------------Data manipulation---------------  
+    41 Display atom type information  
+    42 Set masses  
+    43 Display inertia matrix & principal axes  
+    44 Rotate fragment  
+    45 Amorphization step  
+    46 Set atom types  
+
+---------------Output---------------  
+    51 Write data file  
+    52 Write xyz file  
+    100 Change debug settigns  
+
+-----------------------------------  
+    0 Exit  
+-----------------------------------  
