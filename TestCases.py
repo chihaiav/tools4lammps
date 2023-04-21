@@ -7,7 +7,7 @@ from modules.lists import Lists
 from modules.kinetics import Kinetics
 
 def divide_cells(lammps_input):
-    with open('TEST_Divide_cells.out', 'w') as fil:
+    with open('./code/out/TEST_Divide_cells.out', 'w') as fil:
         # first_atoms = atom_list[:10]
         # region =  {
         # "xlo xhi" : (-10, 3),
